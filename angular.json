@@ -35,9 +35,12 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/Logger.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -96,10 +99,15 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/Logger.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0069a31d-bb27-4f63-8c73-20136e0e154d"
   }
 }

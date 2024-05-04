@@ -1,0 +1,30 @@
+/* app.component.css
+AUTHOR: Aryan Bhardwaj
+CREATED: 2024-03-18
+UPDATED: 2024-03-30
+*/
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 2px;
+}
+
+.mat-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.mat-card-actions {
+  margin-top: auto;
+}
+  
+.mat-toolbar-row {
+  display: flex;
+  justify-content: center;
+}

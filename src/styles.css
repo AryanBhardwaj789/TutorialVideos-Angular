@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css (Global Styles)
+AUTHOR: Aryan Bhardwaj
+CREATED: 2024-03-18
+UPDATED: 2024-03-30
+*/
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.gridblock {
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin:10px;
+}
+
+.avatar-image {
+    background-image: URL("assets/debugger_profile.png");
+    background-size: cover;
+}

@@ -1,0 +1,15 @@
+<!-- my-dialog.component.html (Dialog Component Template)
+AUTHOR: Aryan Bhardwaj
+CREATED: 2024-03-18
+UPDATED: 2024-03-30
+-->
+
+<h1 mat-dialog-title>{{data.video.title}}</h1>
+<div mat-dialog-content>
+  <p>{{data.video.description}}</p>
+  <p>Duration: {{ data.video.duration }}</p>
+  <p>Uploaded: {{ data.video.uploadDate }}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Close</button>
+</div>
