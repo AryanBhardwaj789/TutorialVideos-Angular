@@ -11,7 +11,7 @@ This Angular application uses Angular Material to display a list of 5 Angular tu
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/AryanBhardwaj789/angular-tutorial-videos.git`
+1. Clone the repository: `git clone https://github.com/AryanBhardwaj789/TutorialVideos-Angular.git`
 2. Install dependencies: `npm install`
 3. Run the application: `ng serve`
 
